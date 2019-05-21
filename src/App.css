@@ -31,3 +31,69 @@
     transform: rotate(360deg);
   }
 }
+
+.fixed {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  border: solid 3px black;
+  padding: 10px;
+  background-color: grey;
+  width: 300px;
+}
+
+.cat {
+  height: 50px;
+  width: 50px;
+}
+
+.dog {
+  height: 200px;
+  width: 200px;
+}
+
+.tree {
+  height: 50px;
+  width: 50px;
+}
+
+.cereal {
+  max-height: 100px;
+  width: auto;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.button-modal-content {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+
+.button-modal {
+  width: 50%;
+  height: 50%;
+  min-height: 300px;
+  min-width: 300px;
+  background-color: white;
+  opacity: 1;
+}
+
+button, input {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 20px;
+}
